@@ -14,8 +14,6 @@ In Assignment 4, we implemented:
 - Chatbot using seq2seq model. Trained on 99,687 post response pairs from Startrek movie and TV series scripts. Incorporated context. Augmented data since initial dataset was very small.
 - Chatbot using seq2seq model. Trained on Cornell Movie dataset. 199,455 post response pairs. Created a dataset of 120 very commonly used dialogs in Star Trek series. Used Star Trek dataset to find a dialog that has the maximum likelihood (unigrams) of following the dialog the Seq2Seq model generates.
 
-### Previous Results
-
 ### Milestones
 1. Train seq2seq model on Cornell movie dataset. Fine tune using Star Trek dialogs.
 2. Implement A Persona-Based Neural Conversation Model by Jiwei Li, Michel Galley, Chris Brockett, Georgios P. Spithourakis, Jianfeng Gao, Bill Dolan.
