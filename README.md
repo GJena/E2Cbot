@@ -1,4 +1,4 @@
-# CIS-700-7_Chatbot-Project
+# E2Cbot (CIS-700-7_Chatbot-Project)
 This is the final project for CIS 700-7. It continues on our previous assignment which can be found at https://github.com/vmansi/HW4.
 ## Checkpoint 1 : 3/14
 
