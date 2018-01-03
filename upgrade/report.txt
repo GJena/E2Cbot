@@ -1,0 +1,16 @@
+--------------------------------------------------------------------------------
+Processing file 'server.py'
+ outputting to 'server_10.py'
+--------------------------------------------------------------------------------
+
+'server.py' Line 379
+--------------------------------------------------------------------------------
+
+Renamed function 'tf.all_variables' to 'tf.global_variables'
+
+    Old:   all_vars = tf.all_variables()
+                      ~~~~~~~~~~~~~~~~   
+    New:   all_vars = tf.global_variables()
+                      ~~~~~~~~~~~~~~~~~~~   
+
+
