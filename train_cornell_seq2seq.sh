@@ -1,11 +1,11 @@
-export VOCAB_SOURCE=/data2/ec2bot/Cornell/Data/vocab50000.from
-export VOCAB_TARGET=/data2/ec2bot/Cornell/Data/vocab50000.to
-export TRAIN_SOURCES=/data2/ec2bot/Cornell/Data/dialog1.txt.ids50000
-export TRAIN_TARGETS=/data2/ec2bot/Cornell/Data/dialog2.txt.ids50000
-export DEV_SOURCES=/data2/ec2bot/Cornell/Data/testdialog1.txt.ids50000
-export DEV_TARGETS=/data2/ec2bot/Cornell/Data/testdialog2.txt.ids50000
+export VOCAB_SOURCE=/data2/ec2bot/E2Cbot/cornell/Data/vocab50000.from
+export VOCAB_TARGET=/data2/ec2bot/E2Cbot/cornell/Data/vocab50000.to
+export TRAIN_SOURCES=/data2/ec2bot/E2Cbot/cornell/Data/dialog1.txt.ids50000
+export TRAIN_TARGETS=/data2/ec2bot/E2Cbot/cornell/Data/dialog2.txt.ids50000
+export DEV_SOURCES=/data2/ec2bot/E2Cbot/cornell/Data/testdialog1.txt.ids50000
+export DEV_TARGETS=/data2/ec2bot/E2Cbot/cornell/Data/testdialog2.txt.ids50000
 export TRAIN_STEPS=27800
-export MODEL_DIR=${TMPDIR:/data2/ec2bot/Cornell/Model
+export MODEL_DIR=/data2/ec2bot/E2Cbot/cornell/Model
 mkdir -p $MODEL_DIR
 
 python -m bin.train \
@@ -27,7 +27,7 @@ python -m bin.train \
     class: ParallelTextInputPipeline
     params:
        source_files:
-        - $DEV_SOURCES
+       - $DEV_SOURCES
        target_files:
         - $DEV_TARGETS" \
   --batch_size 64 \
