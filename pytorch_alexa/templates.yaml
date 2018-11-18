@@ -1,0 +1,2 @@
+welcome: |
+ <speak> Welcome to the Star Trek chatbot! <audio src='https://s3.amazonaws.com/cis-700-7/output.mp3'/> </speak>
